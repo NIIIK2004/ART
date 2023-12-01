@@ -1,0 +1,30 @@
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #000;
+  font-family: Alumni Sans, serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.navigation {
+  position: fixed;
+  top: 50%;
+  right: 65px;
+  transform: translateY(-50%);
+}
+
+.navigation a {
+  transition: color .4s, opacity .4s, font-size .21s;
+}
+
+.navigation a:hover {
+  color: #FF8298;
+  font-size: 32px;
+}
+
+.navigation a:focus {
+  opacity: .5;
+}

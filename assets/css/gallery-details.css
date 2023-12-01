@@ -1,0 +1,77 @@
+.gallery-details {
+
+}
+
+.gallery-details-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery-details-wrapper {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 140px;
+}
+
+.gallery-details-picture img{
+    object-fit: cover;
+}
+
+.gallery-details-info {
+    max-width: 470px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.gallery-details-info-title {
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gallery-details-info-description {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gallery-details-info-list {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery-details-info-btns {
+    display: flex;
+    gap: 20px;
+
+}
+
+.gallery-details-info-btn-basket,
+.gallery-details-info-btn-like {
+    color: #8296FF;
+    font-family: Alumni Sans, serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 2px;
+    border: 1px solid #8296FF;
+    padding: 19px 40px;
+}
+
+.gallery-details-info-btn-basket {
+    color: #FF8298;
+    border: 1px solid #FF8298;
+}

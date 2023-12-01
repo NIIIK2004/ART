@@ -1,0 +1,20 @@
+body {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}

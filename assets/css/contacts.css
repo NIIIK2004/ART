@@ -1,0 +1,93 @@
+
+.logotype-text {
+    background: linear-gradient(90deg, #5784F9 0.12%, #7F5DE1 50.65%, #3245EC 107.57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.address ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address ul li {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contacts-forms {
+    margin-top: 60px;
+}
+
+.contacts-forms-wrapper {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.contacts-forms-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 460px;
+}
+
+.contacts-forms-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts-forms-input textarea {
+    width: 940px;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid black;
+    font-size: 26px;
+    transition: all .4s;
+    height: 100%;
+}
+.contacts-forms-input textarea:focus {
+    border: 1px solid transparent;
+    background: black;
+    color: white;
+}
+
+
+.contacts-forms-btn {
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid transparent;
+    background: black;
+    font-size: 26px;
+    transition: all .4s;
+    margin-top: 20px;
+    transition: all .4s;
+}
+
+.contacts-forms-btn:hover {
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+
+}

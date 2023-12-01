@@ -1,0 +1,27 @@
+.label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 1;
+}
+
+.field {
+  font-size: 22px;
+  border-radius: 13px;
+  border: 1px solid #fff;
+  padding: 16px 15px;
+  line-height: 1;
+  color: #fff;
+}
+
+.error {
+  color: #ff2c2c;
+  font-size: 20px;
+  margin-bottom: 6px;
+  display: none;
+}
+
+.error--active {
+  display: block;
+}

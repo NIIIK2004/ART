@@ -1,0 +1,46 @@
+.edit-pr-bnt {
+  padding: 10px 20px;
+  background: black;
+  border-radius: 8px;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 22px;
+  border: 1px solid transparent;
+  transition: all .4s;
+}
+
+.edit-pr-bnt:hover {
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+}
+
+input {
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 8px;
+  color: black;
+  border: 1px solid black;
+  font-size: 26px;
+  transition: all .4s;
+}
+
+input:focus {
+  color: white;
+  border: 1px solid transparent;
+  background: black;
+}
+
+.edit-pr-block label {
+  font-size: 15px;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+
+.edit-pr-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

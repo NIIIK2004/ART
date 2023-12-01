@@ -1,0 +1,66 @@
+.about-me {
+    background: url("../images/about-background.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+}
+
+.about-me__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 140px;
+}
+
+.about-me-company,
+.about-me-creater {
+    max-width: 580px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-me-description,
+.about-me-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about-me-description {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.about-me-contacts {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-me-ava {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 131px;
+    height: 131px;
+}
+
+.about-me-contact {
+    border-radius: 6px;
+    background: #8296FF;
+    padding: 12px 26px;
+    color: #FFF;
+    font-family: Alumni Sans, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+}
